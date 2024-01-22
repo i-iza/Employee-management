@@ -20,6 +20,8 @@ class Message extends Model
         'created_at' => 'datetime',
     ];
 
+    //Attribute Accessors
+    
     /**
      * Retrieve sender/receiver user information based on the id and relationship function.
      */
